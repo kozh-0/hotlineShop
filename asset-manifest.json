@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/hotlineShop/static/css/main.00cbd2ec.css",
+    "main.js": "/hotlineShop/static/js/main.67c3bac3.js",
+    "index.html": "/hotlineShop/index.html",
+    "main.00cbd2ec.css.map": "/hotlineShop/static/css/main.00cbd2ec.css.map",
+    "main.67c3bac3.js.map": "/hotlineShop/static/js/main.67c3bac3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.00cbd2ec.css",
+    "static/js/main.67c3bac3.js"
+  ]
+}
