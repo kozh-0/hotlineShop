@@ -1,0 +1,100 @@
+* {box-sizing: border-box;}
+$hotline_img: "https://phonoteka.org/uploads/posts/2021-04/thumbs/1618586932_1-phonoteka_org-p-khotlain-maiami-fon-1.jpg";
+body {
+  height: 100%;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  font-weight: 600;
+  font-style: italic;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+header {
+  position: relative;
+  nav {
+    height: 56px;
+    line-height: 56px;
+  }
+}
+footer{
+  height: 40px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+// PRELOADER ========================================================
+@keyframes lds-ring {
+  0% {transform: rotate(0deg)}
+  100% {transform: rotate(360deg)}
+}
+
+
+.content {
+  background: linear-gradient(90deg, rgba(45,36,221,1) 0%, rgba(7,251,251,1) 20%, rgba(129,221,112,1) 41%, rgba(255,0,181,1) 67%, rgba(255,235,0,1) 100%);
+  min-height: calc(100% - 20px);
+  padding: 15px;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.card-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.card {
+  width: 260px;
+  height: fit-content;
+  &-image{
+    max-width: 160px;
+    margin: 0 auto;
+    padding: 15px 0;
+    img {
+      background-size: cover;
+
+    }
+  }
+  &-content {
+    background-color:#e7e7e7;
+    padding: 12px !important;
+  }
+}
+
+.screen {
+  height: 80vh;
+  padding-top: 6%;
+  background: #dd47a3 url($hotline_img) center center / cover no-repeat;
+  &_content{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    h1 {
+      margin-top: 0;
+    }
+    h4 {
+      background-color:rgba(230, 197, 25, 1);
+      padding: 15px;
+      border-radius: 20px;
+    }
+  }
+}
+
+.preloader-wrapper.big.active {
+  height: 200px;
+  width: 200px;
+  margin: 50px 0;
+  position: relative;
+  left: 40%;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  img {
+    max-width: 600px;
+  }
+}
